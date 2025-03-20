@@ -1,0 +1,204 @@
+.d-flex{
+    display: flex;
+}
+
+nav{
+    width: 1774px;
+    margin: auto;
+    padding: 26px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi{
+    gap: 0 48px;
+}
+
+.navi a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icon ul{
+    gap: 0 11px;
+}
+
+.img{
+    width: 100%;
+}
+
+.none{
+    display: none;
+}
+
+img{
+    width: 100%;
+}
+
+.navi a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+
+.swiper-slide{
+    width: 240px !important;
+    padding: 0 8px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap{
+    gap: 0 10px;
+}
+
+.w-1316{
+    width: 1316px;
+    margin: auto;
+}
+
+.coulmn-4{
+    width: 30%;
+}
+
+
+
+
+@media(max-width:1773px){
+    nav{
+        width: 100%;
+        padding: 26px 24px;
+    }
+    .none{
+        display: none;
+    }
+    .w-1316{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width:1280px){
+    .icon{
+        display: none;
+    }
+    .navi{
+        gap: 0 38px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 24px 0 ;
+        width: 90%;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .navi a{
+        font-size: 18px;
+    }
+}
+
+
+
+@media(max-width:1160px){
+    .navi{
+        gap: 0 32px;
+    }
+    .navi a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:768px){
+    .navi{
+        display: none;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    .icon{
+        display: block;
+    }
+    .left-icon{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .f-d-column{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .gap{
+        gap: 10px 0;
+    }
+    .coulmn-4{
+        width: 100%;
+    }
+}
+
+@media(max-width:770px){
+    .navi{
+        display: none;
+    }
+}
+
+@media(max-width:560px){
+    .icon{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .left-icon{
+        display: none;
+    }
+    .slider{
+        
+    }
+    .nav{
+        width: 100%;
+    }
+}
+
+@media(min-width:600px){
+    
+}
+
+@media only screen and(max-width:600px) and (max-width:1024px){
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+     
+}
+
+@media(max-width:540px){
+
+}
+
+@media(max-width:480px){
+
+}
+
+@media(max-width:368px){
+
+}
+
+@media(max-width:320px){
+
+}

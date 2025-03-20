@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="d-flex">
+        <div class="logo">
+            <h1>LOGO Designer</h1>
+        </div>
+        <ul class="navi d-flex">
+            <li><a href="#">Wallpapers</a></li>
+            <li><a href="#">Nature</a></li>
+            <li><a href="#">3D Renders</a></li>
+            <li><a href="#">Textures</a></li>
+            <li><a href="#">Archirecture & Interiors</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Street Photography</a></li>
+        </ul>
+        <div class="icon">
+            <ul class="d-flex">
+                <li class="none"><a href="#">
+                        <img src="assets/images/icon--search.svg" alt="">
+                    </a></li>
+                <li class="none"><a href="#">
+                        <img src="assets/images/icon--bag.svg" alt="">
+                    </a></li>
+                <li class="m-navi"><a href="#">
+                        <img src="assets/images/material-symbols_menu-rounded.svg" alt="">
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="slider">
+        <img src="assets/img/image 1.png" alt="kv">
+    </section>
+    <section class="content-slide">
+        <div class="cotnent-textTitle">
+            <h2>
+                Pulvinar elementum interger enim neque volutpat
+            </h2>
+            <p>
+                Pulvinar elementum interger enim neque volutpat
+            </p>
+        </div>
+        <div class="slider">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider1.png" alt="img1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider2.png" alt="img2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider4.png" alt="img4">
+                    </div>
+                    <div class="swiper-slider">
+                        <img src="assets/img/slider1.png" alt="img6">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img7">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img7">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img7">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider3.png" alt="img7">
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- slider -->
+
+    <section class="content w-1316">
+        <div class="content-textTitle">
+            <p>
+                Election Season Recommended creators
+            </p>
+            <h2>
+                Special Writer
+            </h2>
+        </div>
+
+        <div class="row d-flex gap f-d-column">
+            <div class="coulmn-4">
+                <div class="img-section">
+                    <div class="text-section">
+                        <img src="assets/img/coulmn4-img1.png" alt="img1">
+                    </div>
+                </div>
+            </div>
+            <div class="coulmn-4">
+                <div class="img-section">
+                    <div class="text-section">
+                        <img src="assets/img/coulmn4-img2.png" alt="img2">
+                    </div>
+                </div>
+            </div>
+            <div class="coulmn-4">
+                <div class="img-section">
+                    <div class="text-section">
+                        <img src="assets/img/coulmn4-img3.png" alt="img3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            loop: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
